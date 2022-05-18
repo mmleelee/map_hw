@@ -86,6 +86,8 @@ export default function MapScreen() {
    return (
       <Box flex={1}>
          <MapView
+            clusterColor="#dad7cd"
+            clusterTextColor="#656d4a"
             initialRegion={region}
             style={{ flex: 1 }}
             showsTraffic
